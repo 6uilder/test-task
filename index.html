@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tasks</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="task">
+      <h2>Задача 2.1</h2>
+
+      <div class="main">
+        <div class="product"></div>
+        <div class="product"></div>
+        <div class="product"></div>
+        <div class="product"></div>
+        <div class="product"></div>
+        <div class="product"></div>
+        <div class="product"></div>
+        <div class="product"></div>
+      </div>
+      <div><button class="tile-list">Плитка/список</button></div>
+      <button type="button" id="get">Показать еще</button>
+    </div>
+
+    <div class="task">
+      <h2>Задача 2.2</h2>
+      <form action="" class="form">
+        <label for="name">*Name:</label>
+        <input id="name" type="text" name="name" placeholder="Сергей">
+        <br>
+        <label for="about">About:</label>
+        <input id="about" type="text" name="about" placeholder="Web-разработчик">
+        <br>
+        <label for="mail">*E-mail:</label>
+        <input type="email" name="mail" id="mail" placeholder="aaa@post.ru">
+        <br>
+        <p class="warning mail-warning">Не верный формат почты</p>
+        <label for="phone">*Phone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="8-123-456-78-90">
+        <br>
+        <p class="warning phone-warning">Не верный формат телефона</p>
+        <button type="submit" class="valBtn">Valid?</button>
+      </form>
+      <p class="warning end">Поля со * обязательны к заполнению!</p>
+    </div>
+    <div class="task">
+      <h2>Задача 2.3</h2>
+      <ul class="containerUl">
+        <li>1</li>
+        <li>2
+          <li>2.1</li>
+          <li>2.2</li>
+          <li>2.3</li>
+          <li>2.4</li>
+        </li>
+        <li>3
+          <li>3.1</li>
+          <li>3.2</li>
+          <li>3.3</li>
+          <li>3.4</li>
+        </li>
+        <li>4</li>
+      </ul>
+    </div>
+    <div class="task">
+      <h2>Задача 2.4</h2>
+      <form class="undoWrap">
+        <input type="text" class="inp1">
+        <input type="text" class="inp2">
+        <input type="text" class="inp3">
+        <button class="undoBtn" type="button">Undo</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
